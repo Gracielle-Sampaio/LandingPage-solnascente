@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
+font-family: 'Lato', sans-serif;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+
+ul{
+	list-style-type: none;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+	display: flex;
+}
+.cabeçalho{
+	background-color: #1c211f;
+	height: 60px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+
+}
+.logo{
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	margin: 5px;
+	font-weight: 700;
+	font-size: 20px;
+
+
+
+}
+
+.conteudo{
+	margin-top: 0;
+	width: 100%;
+	height: 100%;
+
+}
+.capa{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;	
+
+}
+
+.capa_imagem{
+	margin: 0 auto;
+	
+}
+.capa_imagem img{
+	height: 928px;
+	width: 100%;
+
+}
+.capa_alerta{}
+.capa_chamada{}
+.capa_promocao{}
+
+.conteudoPrincipal{}
+
+.conteudoPrincipal_colecao{}
+.conteudoPrincipal_colecao1 ul{}
+.conteudoPrincipal_colecao1 ul li{}
+.conteudoPrincipal_colecao1 ul li figure{}
+.conteudoPrincipal_colecao1 ul li figure img{}
+.conteudoPrincipal_colecao1 ul li figure img h3{}
+.conteudoPrincipal_colecao1 ul li figure img h3 p{}
+
+.conteudoPrincipal_colecao1icone{}
+.conteudoPrincipal_colecao1titulo{}
+.conteudoPrincipal_colecao1texto{}
+
+
+.conteudoPrincipal_colecao2 ul{}
+.conteudoPrincipal_colecao2 ul li{}
+.conteudoPrincipal_colecao2 ul li figure{}
+.conteudoPrincipal_colecao2 ul li figure img{}
+.conteudoPrincipal_colecao2 ul li figure img h3{}
+.conteudoPrincipal_colecao2 ul li figure img h3 p{}
+
+.conteudoPrincipal_colecao2icone{}
+.conteudoPrincipal_colecao2titulo{}
+.conteudoPrincipal_colecao2texto{}
+
+.conteudoPrincipal_formulario{}
+.conteudoPrincipal_formulariocontainer{}
+.conteudoPrincipal_formulariotitulo{}
+.conteudoPrincipal_formularioinfos{}
+.conteudoPrincipal_formularioinfos input{}
+
+.conteudoPrincipal_formulariocheckbox{}
+.conteudoPrincipal_formularioinfos p input{}
+.conteudoPrincipal_formularioinfos p input{}
+.conteudoPrincipal_formularioinfos p input label{}
+.conteudoPrincipal_formularioinfos p input label button{}
+
+.rodape{}
+.rodape_agradecimento{}
+.rodape_redessociais li {}
+.rodape_redessociais li figure{}
+.rodape_redessociais li figure img{}
+.rodape_redessociaisicone {}
+.rodape_redessociaisicone img{}
