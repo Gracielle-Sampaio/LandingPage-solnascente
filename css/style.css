@@ -42,6 +42,7 @@ main{
 }
 form{
 	background-color: rgb(253, 193, 27);
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.274);
 	border-radius: 5px;
 	padding: 30px;
 }
@@ -76,4 +77,22 @@ form .formulariobotao{
 }
 label{
 	margin-bottom: 2px;
+}
+.coleção p{
+	text-align: justify;
+}
+.coleção{
+	padding:10px 20px;
+	margin-bottom: 15px;
+	background-color: rgba(255, 255, 255, 0.26);
+	box-shadow: 1px 2px 5px rgba(141, 140, 140, 0.47);
+	width: 80%;
+	border-radius: 5px;
+	backdrop-filter: blur( 1.5px ); 
+}
+.coleção:hover{
+	font-size: 1.2em;
+	width: 85%;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.274);
+	backdrop-filter: blur( 2px ); 
 }
