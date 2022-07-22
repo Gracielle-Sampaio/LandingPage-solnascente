@@ -6,11 +6,34 @@
 	
 }
 body{
-	background-color: rgb(184, 181, 181);
+	background-image: url(../img/fundo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	image-opacity: 0.8;
+}
+
+header .row{
+	align-items: center;
 }
 .topo{
-align-items: center;
+	padding-top: 30px;
 }
 .topo img{
-	width: 80px;
+	width: 90px;
+	margin-left: 20px;
+}
+.topo nav{
+	display: inline-block;
+	list-style: none;
+}
+.topo nav ul{
+	list-style: none;
+}
+.topo nav ul li{
+	margin: 15px;
+	font-size: 20px;
+}
+.topo nav ul li a{
+	color: white;
+
 }
