@@ -19,7 +19,7 @@ header .row{
 	padding-top: 30px;
 }
 .topo img{
-	width: 90px;
+	width: 150px;
 	margin-left: 20px;
 }
 .topo nav{
@@ -85,14 +85,44 @@ label{
 	padding:10px 20px;
 	margin-bottom: 15px;
 	background-color: rgba(255, 255, 255, 0.26);
-	box-shadow: 1px 2px 5px rgba(141, 140, 140, 0.47);
+	backdrop-filter: blur( 2px ); 
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.112);
 	width: 80%;
+	border: 1px solid rgba(255, 255, 255, 0.326);
 	border-radius: 5px;
 	backdrop-filter: blur( 1.5px ); 
 }
 .coleção:hover{
 	font-size: 1.2em;
 	width: 85%;
-	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.274);
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.336);
 	backdrop-filter: blur( 2px ); 
+}
+footer{
+	width: 100%;
+	margin-top: 10%;
+	background-color:rgb(253, 193, 27);
+	color: white;
+	font-size: 18px;
+}
+footer .container{
+	padding: 30px ;
+}
+footer img{
+	width: 110px;
+}
+footer ul{
+	list-style: none;
+}
+.redessociais{
+	font-size: 35px;
+	display: flex;
+}
+.redessociais li{
+	margin: 0 15px ;
+}
+.logorodape{
+	display: flex;
+	justify-content: center;
+
 }
