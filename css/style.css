@@ -55,7 +55,7 @@ form .form-input{
 	padding-left: 15px;
 	border-radius: 5px;
 }
-input[type=checkbox] {
+input[type=radio] {
 	margin: 0 10px ;
 	width: 20px;
 	height: 20px;
@@ -120,4 +120,7 @@ footer ul{
 }
 .redessociais li{
 	margin: 0 15px ;
+}
+@media only screen and (max-width:768px){
+
 }
