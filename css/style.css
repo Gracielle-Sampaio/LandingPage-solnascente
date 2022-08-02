@@ -36,6 +36,9 @@ header .row{
 .topo nav ul li a{
 	color: white;
 }
+.topo nav ul li a:hover{
+	font-weight: bold;
+}
 main{
 	padding-top: 15%;
 	color: white;
@@ -112,6 +115,9 @@ footer img{
 footer ul{
 	list-style: none;
 }
+footer ul li:hover{
+	text-shadow: 1px 1px 3px rgba(52, 52, 52, 0.817);
+}
 .redessociais{
 	font-size: 35px;
 	display: flex;
@@ -160,4 +166,32 @@ footer ul{
 	footer .col-redessociais ul li {
 		margin-left: 0;
 	}
+}
+@media only screen and (max-width:768px){
+	.topo img{
+		margin-left: 30%;
+	}
+	.topo nav{
+		display: none;
+	}
+	.row{
+		margin: 0;
+	}
+	.coleção{
+		width: 110%;
+	}
+	footer{
+		font-size: 16px;
+	}
+	footer img{
+		display: none;
+	}
+	footer .row {
+    display: flex;
+	}
+
+	footer .col-redessociais ul li {
+		margin-left: 0;
+	}
+
 }
